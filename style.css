@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #000;
+}
+
+#link div{
+    margin-top: 50px;
+
+}
+.button {
+    position: relative;
+}
+.btn {
+    text-decoration: none;
+    visibility: visible;
+    background-color: #f9004d;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border: 3px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all o.5s;
+    box-shadow: 0 10px 20px rgba(250, 250, 250, 0.5), 5px 0 15px rgba(250, 250, 250, 0.5);
+}
+.btn:hover {
+    background-color: #000;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+button {
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 40px;
+    transition: transform 0.5s;
+    font-size: 20px;
+}
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    transform: scale(1.2);
+}
