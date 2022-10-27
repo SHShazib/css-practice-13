@@ -5,9 +5,9 @@ body {
     background-color: #000;
 }
 
+/* =========Link as Button========== */
 #link div{
     margin-top: 50px;
-
 }
 .button {
     position: relative;
@@ -31,6 +31,8 @@ body {
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+
+/* =========Button=========== */
 button {
     background-color: #f9004d;
     color: #fff;
@@ -47,4 +49,31 @@ button:hover {
     border: 2px solid #f9004d;
     cursor: pointer;
     transform: scale(1.2);
+}
+/* ======Pagination========= */
+.page {
+    display: inline-block;
+}
+.page a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 16px;
+    transition: all 0.5s;
+}
+.page a.active{
+    background-color: #0cf361;
+    border-radius: 50%;
+}
+.page a.arrow {
+    border: 2px ridge #ddd;
+    background-color: #f9004d ;
+}
+.page a.arrow:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d ;
+}
+.page a:hover:not(.active,.arrow){
+    background-color: #f9004d;
+    font-weight: bold;
+    border-radius: 50%;
 }
